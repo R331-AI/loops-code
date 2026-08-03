@@ -12,3 +12,4 @@ if sum==n:
     print("your number is perfect")
 else:
     print("not a perfect number")
+    
