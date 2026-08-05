@@ -1,0 +1,26 @@
+import random 
+
+num = random.randint(1,11)
+#print(num)
+
+tries = 0
+
+while True:
+    
+
+    guess = int(input(f"please guess your Number is {tries} tries  :"))
+
+    if  num == guess:
+        tries += 1
+        print("you are right")
+    
+    elif num<guess:
+        print("go a little lower")
+        tries += 1
+    
+    elif num> guess:
+        print("go a little Higher")
+        tries += 1
+    else:
+        tries += 1
+        print("sorry not are guess number")    
